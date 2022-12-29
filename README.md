@@ -5,8 +5,10 @@
 [Web 線上預覽](https://ssmolab.github.io/CC_Expense_Demo/)
 [PDF 線上預覽](https://ssmolab.github.io/CC_Expense_Demo/?type=pdf)
 
-<img src="https://github.com/SSMOLab/CC_Expense_Demo/blob/main/document/img/doc-cover-web.png" alt="drawing" width="200"/>
-<img src="https://github.com/SSMOLab/CC_Expense_Demo/blob/main/document/img/doc-cover-pdf.png" alt="drawing" width="200"/>
+<div>
+<img align="top" src="https://github.com/SSMOLab/CC_Expense_Demo/blob/main/document/img/doc-cover-web.png" alt="doc-cover-web" width="500"/>
+<img align="top" src="https://github.com/SSMOLab/CC_Expense_Demo/blob/main/document/img/doc-cover-pdf.png" alt="doc-cover-pdf" width="450"/>
+</div>
 
 ## 技術規範
 
