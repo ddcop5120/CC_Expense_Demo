@@ -17,10 +17,8 @@
         <span>
           <p class="break-words ml-2">便利商店使用(繳交上限為2萬元)</p>
           <img
+            src="../assets/img/address-barcode.png"
             width="100"
-            v-for="(url, index) in bill.paymentBarcode"
-            :key="index"
-            :src="url"
             class="mt-1 h-8"
           />
         </span>
@@ -30,7 +28,11 @@
             <label>
               {{ paid.label }}
             </label>
-            <img :src="paid.imgUrl" width="100" class="h-8" />
+            <img
+              src="../assets/img/address-barcode.png"
+              width="100"
+              class="h-8"
+            />
           </span>
         </div>
       </div>
@@ -73,7 +75,7 @@
             <td>認證欄</td>
             <td colspan="4">
               <img
-                src="https://www.cognex.com/api/Sitecore/Barcode/Get?data=BEGIN%3AVCARD%0AN%3ASchwarzenegger%3BArnold%0AORG%3ACognex%0ATEL%3A%2B1%20855-426-4639%0AEMAIL%3Acontactus%40cognex.com%0AURL%3Ahttps%3A%2F%2Fwww.cognex.com%0AADR%3A%3B%3B1%20Vision%20Drive%3BNatick%3B%3B01760-2059%3BUnited%20States%0AEND%3AVCARD&code=Z_QR_CODE&width=300&imageType=JPG&foreColor=%23000000&backColor=%23FFFFFF&rotation=RotateNoneFlipNone"
+                src="../assets/img/address-barcode.png"
                 width="60"
                 class="float-right pt-2"
               />
@@ -90,11 +92,14 @@
       </div>
       <div class="flex justify-around">
         <img
-          :src="collection"
+          src="../assets/img/address-barcode.png"
           width="100"
           class="mt-2 h-8"
-          v-for="(collection, index) in bill.collectionBarcode"
-          :key="index"
+        />
+        <img
+          src="../assets/img/address-barcode.png"
+          width="100"
+          class="mt-2 h-8"
         />
       </div>
     </div>
@@ -161,7 +166,7 @@
 </template>
 <script>
 export default {
-  props: ["bill"],
+  props: { bill: Object },
   data() {
     return {
       items: ["主管", "會計", "覆核", "記帳", "製票"]

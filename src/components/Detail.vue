@@ -31,6 +31,6 @@
 </template>
 <script>
 export default {
-  props: ["detailsTitle", "expensesList"]
+  props: { detailsTitle: Array, expensesList: Array }
 };
 </script>

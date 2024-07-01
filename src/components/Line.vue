@@ -1,17 +1,18 @@
- <template>
+<template>
   <div>
     <div class="text-xs text-title px-4">2021/01 ~ 2021/05 消費分析</div>
-    <apexchart
+    <ApexCharts
       width="380"
       height="120"
       type="line"
       :options="options"
       :series="series"
-    ></apexchart>
+    />
   </div>
 </template>
 
 <script>
+import ApexCharts from "vue-apexcharts";
 export default {
   props: {
     dataLabels: {
@@ -22,6 +23,9 @@ export default {
       default: true,
       type: Boolean
     }
+  },
+  components: {
+    ApexCharts
   },
   data: function() {
     return {

@@ -17,7 +17,11 @@
 </template>
 <script>
 export default {
-  props: ["infoTitles"],
+  props: {
+    infoTitles: Array
+  },
+  data() {
+    return {};
+  }
 };
 </script>
-<style scoped></style>
