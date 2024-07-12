@@ -40,29 +40,43 @@
     .text-indent {
         text-indent: 1rem;
     }
-    .-text-indent_0_8 {
-        text-indent: -0.8rem;
-    }
-    .-text-indent_1_1 {
-        text-indent: -1.1rem;
-    }
-    .-text-indent_1_2 {
-        text-indent: -1.2rem;
-    }
-    .-text-indent_1_3 {
-        text-indent: -1.3rem;
-    }
-    .-text-indent_1_5 {
-        text-indent: -1.5rem;
-    }
-    .-text-indent_1_7 {
-        text-indent: -1.7rem;
-    }
-    .-text-indent_1_8 {
-        text-indent: -1.8rem;
-    }
     .text-justify-last {
         text-align: justify;
         text-align-last: left;
+    }
+    .bg-ruri {
+        --tw-bg-opacity: 1;
+        background-color: #3b82f6;
+    }
+    .text-primary {
+        --tw-text-opacity: 1;
+        color: #6da4d8;
+    }
+    .text-belstarRed {
+        --tw-text-opacity: 1;
+        color: #ff3860;
+    }
+    .text-belstarGray {
+        --tw-text-opacity: 1;
+        color: #6b7280;
+    }
+    .text-ruri {
+        --tw-text-opacity: 1;
+        color: #3b82f6;
+    }
+    .border-ruri {
+        --tw-border-opacity: 1;
+        border-color: #3b82f6;
+    }
+    .text-title {
+        --tw-text-opacity: 1;
+        color: #737A87;
+    }
+    .text-font {
+        --tw-text-opacity: 1;
+        color: #6B7280;
+    }
+    .vertical {
+        writing-mode: vertical-rl;
     }
 }
